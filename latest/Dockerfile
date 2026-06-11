@@ -1,4 +1,4 @@
-FROM ghcr.io/cloudpunks/alpine:3.19@sha256:f0d0e20158b4757ab2476ae46aa1df529253ad49d9a22446e5dc222aaf1870f8
+FROM ghcr.io/cloudpunks/alpine:3.19@sha256:ea97c664286d853d4465b1a37ed948a35c536c7e9d854f8114847673272d08bd
 ENTRYPOINT [""]
 
 # renovate: datasource=npm depName=@cloudant/couchbackup
