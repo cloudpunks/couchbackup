@@ -6,7 +6,7 @@ ENV COUCHBACKUP_VERSION=2.11.17
 
 RUN apk update && \
   apk upgrade && \
-  apk add nodejs npm git && \
+  apk add nodejs npm git jq curl && \
   npm install --global \
     @cloudant/couchbackup@${COUCHBACKUP_VERSION} && \
   rm -rf /var/cache/apk/*
