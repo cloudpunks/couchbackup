@@ -2,7 +2,7 @@ FROM ghcr.io/cloudpunks/alpine:3.19@sha256:b7fa9c5a5990efcb67547792780480668730c
 ENTRYPOINT [""]
 
 # renovate: datasource=npm depName=@cloudant/couchbackup
-ENV COUCHBACKUP_VERSION=2.11.17
+ENV COUCHBACKUP_VERSION=2.11.19
 
 RUN apk update && \
   apk upgrade && \
